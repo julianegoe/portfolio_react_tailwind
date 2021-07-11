@@ -1,6 +1,6 @@
 .Home,
 .Work,
 .Contact {
-	width: 100vw;
+	width: auto;
 	height: 200vh;
 }

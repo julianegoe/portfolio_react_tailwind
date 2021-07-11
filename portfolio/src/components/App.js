@@ -31,6 +31,9 @@ function App() {
       default: console.log("scroll to home")
 
     }
+    return function cleanup() {
+      setScrollElement('')
+  }
   }, [scrollElement])
 
   const scrollToRef = (conponent) => {
@@ -39,7 +42,7 @@ function App() {
 
 
 	return (
-		<Router>
+		<Router className="box-border ">
 			<Navbar scrollToRef={scrollToRef} />
 			
       <Route exact path="/" render={() => {

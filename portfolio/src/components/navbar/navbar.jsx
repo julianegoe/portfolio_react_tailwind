@@ -9,7 +9,7 @@ function Navbar({scrollToRef}) {
 
 
     return (
-        <nav className="fixed flex w-full items-center justify-end flex-wrap bg-gray-300 p-6">
+        <nav className="fixed flex w-full items-center justify-center flex-wrap bg-gray-300 p-6 z-10">
             <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
             <div className="text-sm lg:flex-grow">
                 <div  className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
