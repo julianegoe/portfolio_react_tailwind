@@ -11,6 +11,7 @@ import ProjectDetails from './ProjectDetails/ProjectDetails';
 import './App.css';
 import '../index.css';
 
+
 function App() {
   const workRef = useRef()
   const homeRef = useRef()
