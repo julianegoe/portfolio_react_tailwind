@@ -9,7 +9,7 @@ import './Work.css';
 
 function Work() {
 	return (
-		<div className='grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 p-10 gap-6 mx-auto '>
+		<div className='grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 p-10 gap-6 mt-10 mx-auto '>
 			<article className='md:justify-self-center flex flex-col shadow-xl mx-2 max-w-lg bg-red-100 py-10 px-10 transform duration-500 hover:-translate-y-2 cursor-pointer max-h-190 rounded-md'>
 				<Link to='/myflix'>
 					<div className='min-h-62'>
