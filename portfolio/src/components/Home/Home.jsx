@@ -32,7 +32,7 @@ function Home() {
 				<div className='bg-red-300 mix-blend-screen width-1/2 h-screen'></div>
 			</div>
 			<div className='sm:col-span-1 md:col-start-1 md:col-span-1 xl:col-start-2 xl:col-span-1 width-1/2 h-screen bg-gray-100'>
-				<h1 className='leading-snug pt-32 font-welcome text-6xl'>
+				<h1 className='leading-snug pt-32 font-welcome sm:mb-5 sm:text-4xl text-6xl'>
 					I'm an aspiring web developer from Berlin. Check out the cool projects
 					I built with <span className='bg-green-500'>{tech}.</span>
 				</h1>
