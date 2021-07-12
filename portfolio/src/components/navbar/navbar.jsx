@@ -22,7 +22,7 @@ function Navbar({ scrollToRef }) {
 			<div
 				className={`w-full ${navDisplay} flex-grow lg:flex lg:items-center lg:w-auto`}>
 				<div className='text-sm lg:flex-grow'>
-					<div className='block mt-4 md:text-4xl md:text-center lg:text-xl lg:inline-block lg:mt-0 text-white hover:text-green-500 mr-4'>
+					<div className='block mt-4 sm:text-4xl sm:text-center lg:text-xl lg:inline-block lg:mt-0 text-white hover:text-green-500 mr-4'>
 						<Link
 							onClick={() => {
 								scrollToRef('home');
@@ -31,7 +31,7 @@ function Navbar({ scrollToRef }) {
 							Home
 						</Link>
 					</div>
-					<div className='block mt-4 md:text-4xl md:text-center lg:text-xl lg:inline-block lg:mt-0 text-white hover:text-green-500 mr-4'>
+					<div className='block mt-4 sm:text-4xl sm:text-center lg:text-xl lg:inline-block lg:mt-0 text-white hover:text-green-500 mr-4'>
 						<Link
 							onClick={() => {
 								scrollToRef('work');
@@ -40,7 +40,7 @@ function Navbar({ scrollToRef }) {
 							Work
 						</Link>
 					</div>
-					<div className='block mt-4 md:text-4xl md:text-center lg:text-xl lg:inline-block lg:mt-0 text-white hover:text-green-500'>
+					<div className='block mt-4 sm:text-4xl sm:text-center lg:text-xl lg:inline-block lg:mt-0 text-white hover:text-green-500'>
 						<Link
 							onClick={() => {
 								scrollToRef('contact');

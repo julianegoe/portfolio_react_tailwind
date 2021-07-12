@@ -9,7 +9,7 @@ module.exports = {
 		},
 		fontFamily: { welcome: ['Catamaran', 'sans-serif'] },
 		plugins: [require('@tailwindcss/forms')],
-		screens: { phone: '480px' },
+
 		variants: {
 			extend: {
 				mixBlendMode: ['hover', 'focus'],
