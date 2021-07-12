@@ -9,11 +9,11 @@ module.exports = {
 		},
 		fontFamily: { welcome: ['Catamaran', 'sans-serif'] },
 		plugins: [require('@tailwindcss/forms')],
-	},
-	variants: {
-		extend: {
-			mixBlendMode: ['hover', 'focus'],
+		screens: { phone: '480px' },
+		variants: {
+			extend: {
+				mixBlendMode: ['hover', 'focus'],
+			},
 		},
 	},
-	plugins: [],
 };
