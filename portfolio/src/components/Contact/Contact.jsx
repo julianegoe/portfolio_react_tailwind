@@ -30,7 +30,7 @@ function Contact() {
 	};
 
 	return (
-		<div className='pt-20 phone:px-20 md:px-48 mx-auto bg-red-100 '>
+		<div className='pt-20 sm:px-20 md:px-48 mx-auto bg-red-100 '>
 			<h1 className='my-10 font-bold text-5xl'>
 				Hey, drop me a line if you want to collaborate. 👋🏻
 			</h1>
