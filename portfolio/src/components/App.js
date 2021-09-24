@@ -14,6 +14,15 @@ import myflixAngular from './Work/myflix_angular.png';
 import api from './Work/api.png';
 import './App.css';
 import '../index.css';
+import {
+	myflixReact,
+	myfliAngular,
+	meetApp,
+	chattyApp,
+	portfolioText,
+	movieApi,
+	pokemonText,
+} from './detailTemplates';
 
 function App() {
 	const workRef = useRef();
@@ -73,7 +82,13 @@ function App() {
 				exact
 				path='/myflix'
 				render={() => {
-					return <ProjectDetails project='MyFlix - React' image={myflix} />;
+					return (
+						<ProjectDetails
+							project='MyFlix - React'
+							image={myflix}
+							text={myflixReact}
+						/>
+					);
 				}}
 			/>
 
@@ -81,7 +96,9 @@ function App() {
 				exact
 				path='/meetapp'
 				render={() => {
-					return <ProjectDetails project='MeetApp' image={meetapp} />;
+					return (
+						<ProjectDetails project='MeetApp' image={meetapp} text={meetApp} />
+					);
 				}}
 			/>
 
@@ -89,7 +106,13 @@ function App() {
 				exact
 				path='/pokedex'
 				render={() => {
-					return <ProjectDetails project='Pokédex' image={pokedex} />;
+					return (
+						<ProjectDetails
+							project='Pokédex'
+							image={pokedex}
+							text={pokemonText}
+						/>
+					);
 				}}
 			/>
 
@@ -97,7 +120,13 @@ function App() {
 				exact
 				path='/chattyapp'
 				render={() => {
-					return <ProjectDetails project='Chatty App' image={chattyapp} />;
+					return (
+						<ProjectDetails
+							project='Chatty App'
+							image={chattyapp}
+							text={chattyApp}
+						/>
+					);
 				}}
 			/>
 
@@ -105,7 +134,13 @@ function App() {
 				exact
 				path='/portfolio'
 				render={() => {
-					return <ProjectDetails project='Portfolio' image={portfolio} />;
+					return (
+						<ProjectDetails
+							project='Portfolio'
+							image={portfolio}
+							text={portfolioText}
+						/>
+					);
 				}}
 			/>
 
@@ -114,7 +149,11 @@ function App() {
 				path='/myflix-angular'
 				render={() => {
 					return (
-						<ProjectDetails project='MyFlix - Angular' image={myflixAngular} />
+						<ProjectDetails
+							project='MyFlix - Angular'
+							image={myflixAngular}
+							text={myfliAngular}
+						/>
 					);
 				}}
 			/>
@@ -123,7 +162,9 @@ function App() {
 				exact
 				path='/movie-api'
 				render={() => {
-					return <ProjectDetails project='Movie API' image={api} />;
+					return (
+						<ProjectDetails project='Movie API' image={api} text={movieApi} />
+					);
 				}}
 			/>
 		</Router>

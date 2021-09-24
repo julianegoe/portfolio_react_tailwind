@@ -159,7 +159,7 @@ function Work() {
 					<div
 						onClick={() => {
 							window.open(
-								'https://www.youtube.com/watch?v=_tZZViF0pDU',
+								'https://coach-courses-us.s3.amazonaws.com/exercises/1126/40126/be300a7fd896f06bf9c0b05d813cdde5/RPReplay_Final1628244129.MP4',
 								'_blank'
 							);
 						}}
