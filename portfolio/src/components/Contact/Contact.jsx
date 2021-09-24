@@ -26,7 +26,7 @@ function Contact() {
 				? window.alert('E-Mail successfully sent.')
 				: window.alert('something went wrong');
 		} catch (e) {
-			console.log(e);
+			window.alert(e);
 		}
 	};
 
