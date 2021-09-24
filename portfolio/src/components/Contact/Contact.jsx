@@ -23,7 +23,7 @@ function Contact() {
 				process.env.REACT_APP_USER_ID
 			);
 			console.log(process.env.REACT_APP_SERVICE_ID);
-			console.log(response);
+			window.alert(response);
 		} catch (e) {
 			console.log(e);
 		}
