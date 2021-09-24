@@ -22,8 +22,9 @@ function Contact() {
 				templateParams,
 				process.env.REACT_APP_USER_ID
 			);
-			console.log(process.env.REACT_APP_SERVICE_ID);
-			window.alert(response);
+			response.status === '200'
+				? window.alert('E-Mail successfully sent.')
+				: window.alert('something went wrong');
 		} catch (e) {
 			console.log(e);
 		}
