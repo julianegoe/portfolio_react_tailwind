@@ -88,6 +88,29 @@ function Contact() {
 					</button>
 				</div>
 			</div>
+			<footer className='my-5 flex flex-row items-center justify-center'>
+				<p className='pr-3'>Find me on: </p>
+				<a
+					href='https://twitter.com/maximahls'
+					target='_blank'
+					rel='noreferrer'>
+					<img
+						className='max-w-6 pr-3'
+						src='https://img.icons8.com/ios-filled/50/000000/twitter-circled--v1.png'
+						alt='Twitter'
+					/>
+				</a>
+				<a
+					href='https://medium.com/@goersch.juliane'
+					target='_blank'
+					rel='noreferrer'>
+					<img
+						className='max-w-8'
+						src='https://img.icons8.com/color/48/000000/medium-logo--v2.png'
+						alt='Medium'
+					/>
+				</a>
+			</footer>
 		</div>
 	);
 }
