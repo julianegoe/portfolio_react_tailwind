@@ -24,7 +24,7 @@ function Contact() {
 			);
 			response.status === '200'
 				? window.alert('E-Mail successfully sent.')
-				: window.alert('something went wrong');
+				: window.alert(response.status);
 		} catch (e) {
 			window.alert(e);
 		}
